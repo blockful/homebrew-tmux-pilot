@@ -1,28 +1,28 @@
 class TmuxPilot < Formula
-  desc "A TUI for managing tmux sessions"
+  desc "A minimal TUI for managing tmux sessions"
   homepage "https://github.com/blockful/tmux-pilot"
-  version "0.4.0"
+  version "0.6.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/blockful/tmux-pilot/releases/download/v0.4.0/tmux-pilot_Darwin_arm64.tar.gz"
-      sha256 "0739f43c7cbbe4fe25050d8133c7f469a7493bd78de2d06d1612ab1d587c230a"
+      url "https://github.com/blockful/tmux-pilot/releases/download/v0.6.0/tmux-pilot_Darwin_arm64.tar.gz"
+      sha256 "9fb951d0e5b64d0f722483b7a0d9ef04f78250ecdeb2e143e9b267026b18c279"
     end
     on_intel do
-      url "https://github.com/blockful/tmux-pilot/releases/download/v0.4.0/tmux-pilot_Darwin_x86_64.tar.gz"
-      sha256 "cc9955330f0ebc9578b0ca7e9423debba9e2f294fb4ff788c7622dd3ce4a08a7"
+      url "https://github.com/blockful/tmux-pilot/releases/download/v0.6.0/tmux-pilot_Darwin_x86_64.tar.gz"
+      sha256 "d038ea61eb32cb648b0434766ca1417b939b7cb8246f7848614945d2c4276147"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/blockful/tmux-pilot/releases/download/v0.4.0/tmux-pilot_Linux_arm64.tar.gz"
-      sha256 "b0875d0469f3b2c8b6a8b581770000ee393cab0e464df4f0a3f84c0d18b79a13"
+      url "https://github.com/blockful/tmux-pilot/releases/download/v0.6.0/tmux-pilot_Linux_arm64.tar.gz"
+      sha256 "e9376c0c8702bdf3ab125bc9691a1af1146ec930b65d89d80ef6c9e3cc639152"
     end
     on_intel do
-      url "https://github.com/blockful/tmux-pilot/releases/download/v0.4.0/tmux-pilot_Linux_x86_64.tar.gz"
-      sha256 "d1c9ad4d9cfb64bf17f73f0e2f2379f124e003496be5424f418bc8c175a39db7"
+      url "https://github.com/blockful/tmux-pilot/releases/download/v0.6.0/tmux-pilot_Linux_x86_64.tar.gz"
+      sha256 "06ea4cf163c74cd8d9cfb89cb418236ae428ad590b25f5e305a38f8061e8a21a"
     end
   end
 
