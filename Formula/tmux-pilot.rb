@@ -28,6 +28,7 @@ class TmuxPilot < Formula
 
   def install
     bin.install "tmux-pilot"
+    bin.install_symlink "tmux-pilot" => "tp"
   end
 
   test do
